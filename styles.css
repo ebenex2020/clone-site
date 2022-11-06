@@ -1,0 +1,201 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* HEADER  */
+header,
+section {
+  margin-bottom: 96px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 62px;
+}
+
+.header-text-box {
+  align-self: center;
+}
+
+h1 {
+  font-size: 44px;
+  margin-bottom: 32px;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+
+.header-text {
+  font-size: 18px;
+  color: #495057;
+  margin-bottom: 24px;
+  line-height: 1.7;
+  font-variant: small-caps;
+}
+
+.btn:link,
+.btn:visited {
+  border-radius: 100px;
+  color: #fff;
+  background-color: #087f5b;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 500;
+}
+.btn:hover,
+.btn:active {
+  background-color: #099268;
+}
+
+.btn--big {
+  font-size: 18px;
+  padding: 16px 24px;
+}
+
+/* MAIN COMPONENTS */
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
+/* Section 1 */
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 48px;
+  letter-spacing: -0.5px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+p.features-title {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+p.features-text {
+  font-size: 18px;
+  line-height: 1.7;
+  font-variant: small-caps;
+}
+
+.features-icon {
+  width: 32px;
+  height: 32px;
+  stroke: #087f5b;
+  margin-bottom: 24px;
+}
+
+/* Section 2 */
+
+.testimonial-section {
+  background-color: #087f5b;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.testimonial-box {
+  align-self: center;
+  grid-column: 2 / -1;
+}
+
+.testimonial-box h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: #fff;
+}
+.testimonial-text {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  color: #e6fcf5;
+}
+
+.testimonial-author {
+  color: #e6fcf5;
+}
+
+/* CHAIRS */
+
+.chair {
+  border-radius: 12px;
+  border-bottom-left-radius: 0;
+  box-shadow: -3px 20px 40px #343a40;
+}
+.chair img {
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.chair-box {
+  padding: 32px;
+}
+
+.chair-box h3 {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.chair-details {
+  list-style: none;
+  margin-bottom: 48px;
+}
+
+.chair-details li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.chair-icon {
+  width: 32px;
+  height: 32px;
+  stroke: #087f5b;
+}
+
+.chair-price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 12px;
+  margin-bottom: 48px;
+  color: #495057;
+}
